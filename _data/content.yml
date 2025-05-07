@@ -100,30 +100,30 @@ skills:
 
 ### Resume [ resume ]
 resume:
-  title: "Resume"
-  subtitle: "my <b>Story</b>"
+  title: "이력서"
+  subtitle: "학력 및 <b>경력</b>"
   bg_title: "History"
 
   education:
-    title: "Education"
+    title: "학력"
     items:
-      - name: "CoderHouse Courses"
-        subname: "Backend Programming"
-        period: "2014 - 2016"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      - name: "한국 폴리텍 대학교"
+        subname: "사이버보안과"
+        period: "2024 - 2025"
+        text: "사이버보안 학사 학위 취득. 융합프로젝트 랜섬웨어 제작. 병원 개인정보 관리 사업 구상"
 
       - name: "Lviv National Academy of Arts"
         subname: "Faculty of Design"
         period: "2012 - 2014"
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-      - name: "IT Future"
-        subname: "High School"
-        period: "2010 - 2012"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      - name: "기흥 고등학교"
+        subname: "고등학교"
+        period: "2021 - 2023"
+        text: "고등 교육 과정 이수"
 
   experience:
-    title: "Experience"
+    title: "경력"
     items:
       - name: "UI Head &amp; Manager"
         subname: "Soft Tech Inc."
