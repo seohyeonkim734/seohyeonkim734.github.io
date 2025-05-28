@@ -32,8 +32,8 @@ services:
   bg_title: "Services"
 
   items:
-    - title: "랜섬웨어어"
-      subtitle: "해킹도구구"
+    - title: "랜섬웨어"
+      subtitle: "해킹도구"
       text: "국가 사이버대전을 위한 공격 기술로 주로 북한을 저격한다. 대한민국의 해킹 기술을 발전 시키고 주변 나라들을 견제할 수 있다. 최고의 방어는 공격"
       button_label: "See Pricing"
       button_link: "#pricing-section"
