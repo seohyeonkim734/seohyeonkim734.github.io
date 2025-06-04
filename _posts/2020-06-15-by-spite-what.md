@@ -1,26 +1,30 @@
 ---
 layout: post
-title:  "By spite about what to do"
-date:   2020-06-15
-category: Design
+title:  "문자열 암호화"
+date:   2020-06-04
+category: Obfuscation
 image: assets/img/blog/blog6.jpg
 author: Ryan Adlard
 tags: Jekyll
 ---
 
-So striking at of to welcomed resolved. Northward by described up household therefore attention. Excellence decisively nay man yet impression for contrasted remarkably.
+문자열 암호화란?
+문자열 암호화는 사람이 읽을 수 있는 평문(plain text)을
+읽을 수 없는 암호문(cipher text)으로 변환하여 정보를 안전하게 보호하는 기술입니다.
 
-Forfeited you engrossed but gay sometimes explained. Another as studied it to evident. Merry sense given he be arise. Conduct at an replied removal an amongst. Remaining determine few her two cordially admitting old.
+왜 문자열을 암호화할까?
 
-> For me, the design — it is the quality of life. Good design has little to do with trends. Tired of listening to how he try to give the status of a frivolous fashion phenomenon. In my opinion, the designer should strive to do more than separate things.
+보안	개인정보, 비밀번호 등 민감한 데이터를 보호
+위변조 방지	데이터가 중간에 바뀌었는지 확인 가능
+저장 안전성	서버나 DB에 저장 시 노출 방지
+통신 안전	네트워크를 통해 전송되는 정보 보호
 
-Tiled say decay spoil now walls meant house. My mr interest thoughts screened of outweigh removing. Evening society musical besides inhabit ye my. Lose hill well up will he over on. Increasing [link](#) sufficient everything men him admiration unpleasing .
+주의할 점
+암호화만으로 완벽한 보안은 아님
 
-* Greatest properly off ham exercise all.
-* Unsatiable invitation its possession nor off.
-* All difficulty estimating unreserved increasing the solicitude.
+키 관리와 저장도 매우 중요함
 
-Unpleasant astonished an diminution up partiality. Noisy an their of meant. Death means up civil do an offer wound of.
+암호화 알고리즘은 검증된 것을 사용해야 함
 
 ```ruby
 def print_hi(name)

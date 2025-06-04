@@ -1,32 +1,24 @@
 ---
 layout: post
-title:  "By spite about do of do allow"
-date:   2020-08-05
-category: Music
+title:  "난독화란?"
+date:   2025-06-04
+category: Obfuscation
 image: assets/img/blog/blog9.jpg
 author: Ryan Adlard
 tags: rock
 ---
 
-So striking at of to welcomed resolved. Northward by described up household therefore attention. Excellence decisively nay man yet impression for contrasted remarkably.
-
-Forfeited you engrossed but gay sometimes explained. Another as studied it to evident. Merry sense given he be arise. Conduct at an replied removal an amongst. Remaining determine few her two cordially admitting old.
+랜섬웨어는 보안 소프트웨어나 분석 도구의 탐지를 피하기 위해 난독화를 사용한다. 함수명, 변수명, 문자열 등을 숨겨 코드의 구조와 동작을 파악하기 어렵게 만들며 제어 흐름을 복잡하게 만들어 리버스 엔지니어링을 방해하고, 공격 기법 노출을 막을 수 있다. 또한 난독화는 AV 및 EDR의 시그니처 기반 탐지를 우회하는 데도 효과적이다. 결과적으로, 난독화는 랜섬웨어의 은밀성과 지속성을 높이는 핵심 기술이다
 
 
-> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque suscipit.
+> 난독화는 마치 중요한 편지를 비밀 잉크로 써서
+엿보는 사람은 읽을 수 없게 만들고,
+받는 사람만이 내용을 알 수 있도록 하는 보안 필터이다.
 
-Tiled say decay spoil now walls meant house. My mr interest thoughts screened of outweigh removing. Evening society musical besides inhabit ye my. Lose hill well up will he over on. Increasing [link](#) sufficient everything men him admiration unpleasing .
+난독화는 코드, 데이터, 통신 내용을 사람이나 분석도구가 쉽게 이해하지 못하도록 의도적으로 복잡하고 불명확하게 만드는 기술이다. 주로 아래와 같은 목적으로 사용된다.
 
-* Greatest properly off ham exercise all.
-* Unsatiable invitation its possession nor off.
-* All difficulty estimating unreserved increasing the solicitude.
+* 타인이 코드를 분석하거나 재사용하지 못하도록 방지 
+* 보안 솔루션 탐지를 피하기 이해 분석이 어렵도록 만듦 
+* 코드를 분석해 취약점을 찾거나 변조하지 못하도록 방지
 
-Unpleasant astonished an diminution up partiality. Noisy an their of meant. Death means up civil do an offer wound of.
-
-```ruby
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Ryan')
-#=> prints 'Hi, Ryan' to STDOUT.
-```
+난독화는 크게 코드 난독화와 데이터 난독화로 나뉘고 그 안에 여러가지 난독화 기법이있다. 이 블로그에서 여러가지 난독화 기법에 대해 알아볼 것이다.
