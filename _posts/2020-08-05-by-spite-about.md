@@ -22,3 +22,11 @@ tags: rock
 * 코드를 분석해 취약점을 찾거나 변조하지 못하도록 방지
 
 난독화는 크게 코드 난독화와 데이터 난독화로 나뉘고 그 안에 여러가지 난독화 기법이있다. 이 블로그에서 여러가지 난독화 기법에 대해 알아볼 것이다.
+
+```ruby
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Ryan')
+#=> prints 'Hi, Ryan' to STDOUT.
+```
