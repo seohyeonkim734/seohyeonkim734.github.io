@@ -13,10 +13,10 @@ hero:
   description: "폴리텍 대학 강서캠퍼스 사이버 보안과 2학년 입니다."
   button1:
     label: "My Skills"
-    link: "#skills-section"
-  button2:
-    label: ""
     link: "#"
+  button2:
+    label: "Talent"
+    link: "#skills-section"
   bg_title: "Cyber Security"
   info:
     - num: "2 <strong>+</strong>"
