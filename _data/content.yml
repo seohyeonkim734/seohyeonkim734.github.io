@@ -14,9 +14,6 @@ hero:
   button1:
     label: "이력서 다운받기"
     link: "#"
-  button2:
-    label: "My Skills"
-    link: "#skills-section"
   bg_title: "Cyber Security"
   info:
     - num: "2 <strong>+</strong>"
